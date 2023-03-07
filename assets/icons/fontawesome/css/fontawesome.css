@@ -1,0 +1,4104 @@
+@font-face {
+    font-family: 'fontawesome';
+    src: url('../font/fontawesome.eot?77645736');
+    src: url('../font/fontawesome.eot?77645736#iefix') format('embedded-opentype'), url('../font/fontawesome.woff2?77645736') format('woff2'), url('../font/fontawesome.woff?77645736') format('woff'), url('../font/fontawesome.ttf?77645736') format('truetype'), url('../font/fontawesome.svg?77645736#fontawesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontawesome';
+    src: url('../font/fontawesome.svg?77645736#fontawesome') format('svg');
+  }
+}
+*/
+
+[class^="icon-fontawesome-"],
+[class*=" icon-fontawesome-"] {
+    text-align: center;
+}
+
+[class^="icon-fontawesome-"]:before,
+[class*=" icon-fontawesome-"]:before {
+    font-family: "fontawesome";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    /* width: 1em; */
+    /* margin-right: .2em; */
+    text-align: center;
+    /* opacity: .8; */
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    /* margin-left: .2em; */
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-fontawesome-glass:before {
+    content: '\e800';
+}
+
+/* 'î €' */
+
+.icon-fontawesome-music:before {
+    content: '\e801';
+}
+
+/* 'î ' */
+
+.icon-fontawesome-search:before {
+    content: '\e802';
+}
+
+/* 'î ‚' */
+
+.icon-fontawesome-mail:before {
+    content: '\e803';
+}
+
+/* 'î ƒ' */
+
+.icon-fontawesome-heart:before {
+    content: '\e804';
+}
+
+/* 'î „' */
+
+.icon-fontawesome-heart-empty:before {
+    content: '\e805';
+}
+
+/* 'î …' */
+
+.icon-fontawesome-star:before {
+    content: '\e806';
+}
+
+/* 'î †' */
+
+.icon-fontawesome-star-empty:before {
+    content: '\e807';
+}
+
+/* 'î ‡' */
+
+.icon-fontawesome-star-half:before {
+    content: '\e808';
+}
+
+/* 'î ˆ' */
+
+.icon-fontawesome-user:before {
+    content: '\e809';
+}
+
+/* 'î ‰' */
+
+.icon-fontawesome-users:before {
+    content: '\e80a';
+}
+
+/* 'î Š' */
+
+.icon-fontawesome-video:before {
+    content: '\e80b';
+}
+
+/* 'î ‹' */
+
+.icon-fontawesome-videocam:before {
+    content: '\e80c';
+}
+
+/* 'î Œ' */
+
+.icon-fontawesome-picture:before {
+    content: '\e80d';
+}
+
+/* 'î ' */
+
+.icon-fontawesome-camera:before {
+    content: '\e80e';
+}
+
+/* 'î Ž' */
+
+.icon-fontawesome-camera-alt:before {
+    content: '\e80f';
+}
+
+/* 'î ' */
+
+.icon-fontawesome-th-large:before {
+    content: '\e810';
+}
+
+/* 'î ' */
+
+.icon-fontawesome-th:before {
+    content: '\e811';
+}
+
+/* 'î ‘' */
+
+.icon-fontawesome-th-list:before {
+    content: '\e812';
+}
+
+/* 'î ’' */
+
+.icon-fontawesome-ok:before {
+    content: '\e813';
+}
+
+/* 'î “' */
+
+.icon-fontawesome-ok-circled:before {
+    content: '\e814';
+}
+
+/* 'î ”' */
+
+.icon-fontawesome-ok-circled2:before {
+    content: '\e815';
+}
+
+/* 'î •' */
+
+.icon-fontawesome-cancel:before {
+    content: '\e816';
+}
+
+/* 'î –' */
+
+.icon-fontawesome-cancel-circled:before {
+    content: '\e817';
+}
+
+/* 'î —' */
+
+.icon-fontawesome-cancel-circled2:before {
+    content: '\e818';
+}
+
+/* 'î ˜' */
+
+.icon-fontawesome-plus:before {
+    content: '\e819';
+}
+
+/* 'î ™' */
+
+.icon-fontawesome-plus-circled:before {
+    content: '\e81a';
+}
+
+/* 'î š' */
+
+.icon-fontawesome-minus:before {
+    content: '\e81b';
+}
+
+/* 'î ›' */
+
+.icon-fontawesome-minus-circled:before {
+    content: '\e81c';
+}
+
+/* 'î œ' */
+
+.icon-fontawesome-help-circled:before {
+    content: '\e81d';
+}
+
+/* 'î ' */
+
+.icon-fontawesome-info-circled:before {
+    content: '\e81e';
+}
+
+/* 'î ž' */
+
+.icon-fontawesome-home:before {
+    content: '\e81f';
+}
+
+/* 'î Ÿ' */
+
+.icon-fontawesome-link:before {
+    content: '\e820';
+}
+
+/* 'î  ' */
+
+.icon-fontawesome-attach:before {
+    content: '\e821';
+}
+
+/* 'î ¡' */
+
+.icon-fontawesome-lock:before {
+    content: '\e822';
+}
+
+/* 'î ¢' */
+
+.icon-fontawesome-lock-open:before {
+    content: '\e823';
+}
+
+/* 'î £' */
+
+.icon-fontawesome-pin:before {
+    content: '\e824';
+}
+
+/* 'î ¤' */
+
+.icon-fontawesome-eye:before {
+    content: '\e825';
+}
+
+/* 'î ¥' */
+
+.icon-fontawesome-eye-off:before {
+    content: '\e826';
+}
+
+/* 'î ¦' */
+
+.icon-fontawesome-tag:before {
+    content: '\e827';
+}
+
+/* 'î §' */
+
+.icon-fontawesome-tags:before {
+    content: '\e828';
+}
+
+/* 'î ¨' */
+
+.icon-fontawesome-bookmark:before {
+    content: '\e829';
+}
+
+/* 'î ©' */
+
+.icon-fontawesome-flag:before {
+    content: '\e82a';
+}
+
+/* 'î ª' */
+
+.icon-fontawesome-thumbs-up:before {
+    content: '\e82b';
+}
+
+/* 'î «' */
+
+.icon-fontawesome-thumbs-down:before {
+    content: '\e82c';
+}
+
+/* 'î ¬' */
+
+.icon-fontawesome-download:before {
+    content: '\e82d';
+}
+
+/* 'î ­' */
+
+.icon-fontawesome-upload:before {
+    content: '\e82e';
+}
+
+/* 'î ®' */
+
+.icon-fontawesome-forward:before {
+    content: '\e82f';
+}
+
+/* 'î ¯' */
+
+.icon-fontawesome-export:before {
+    content: '\e830';
+}
+
+/* 'î °' */
+
+.icon-fontawesome-pencil:before {
+    content: '\e831';
+}
+
+/* 'î ±' */
+
+.icon-fontawesome-edit:before {
+    content: '\e832';
+}
+
+/* 'î ²' */
+
+.icon-fontawesome-print:before {
+    content: '\e833';
+}
+
+/* 'î ³' */
+
+.icon-fontawesome-retweet:before {
+    content: '\e834';
+}
+
+/* 'î ´' */
+
+.icon-fontawesome-comment:before {
+    content: '\e835';
+}
+
+/* 'î µ' */
+
+.icon-fontawesome-chat:before {
+    content: '\e836';
+}
+
+/* 'î ¶' */
+
+.icon-fontawesome-bell:before {
+    content: '\e837';
+}
+
+/* 'î ·' */
+
+.icon-fontawesome-attention:before {
+    content: '\e838';
+}
+
+/* 'î ¸' */
+
+.icon-fontawesome-attention-circled:before {
+    content: '\e839';
+}
+
+/* 'î ¹' */
+
+.icon-fontawesome-location:before {
+    content: '\e83a';
+}
+
+/* 'î º' */
+
+.icon-fontawesome-trash-empty:before {
+    content: '\e83b';
+}
+
+/* 'î »' */
+
+.icon-fontawesome-doc:before {
+    content: '\e83c';
+}
+
+/* 'î ¼' */
+
+.icon-fontawesome-folder:before {
+    content: '\e83d';
+}
+
+/* 'î ½' */
+
+.icon-fontawesome-folder-open:before {
+    content: '\e83e';
+}
+
+/* 'î ¾' */
+
+.icon-fontawesome-phone:before {
+    content: '\e83f';
+}
+
+/* 'î ¿' */
+
+.icon-fontawesome-cog:before {
+    content: '\e840';
+}
+
+/* 'î¡€' */
+
+.icon-fontawesome-cog-alt:before {
+    content: '\e841';
+}
+
+/* 'î¡' */
+
+.icon-fontawesome-wrench:before {
+    content: '\e842';
+}
+
+/* 'î¡‚' */
+
+.icon-fontawesome-basket:before {
+    content: '\e843';
+}
+
+/* 'î¡ƒ' */
+
+.icon-fontawesome-calendar:before {
+    content: '\e844';
+}
+
+/* 'î¡„' */
+
+.icon-fontawesome-login:before {
+    content: '\e845';
+}
+
+/* 'î¡…' */
+
+.icon-fontawesome-logout:before {
+    content: '\e846';
+}
+
+/* 'î¡†' */
+
+.icon-fontawesome-volume-off:before {
+    content: '\e847';
+}
+
+/* 'î¡‡' */
+
+.icon-fontawesome-volume-down:before {
+    content: '\e848';
+}
+
+/* 'î¡ˆ' */
+
+.icon-fontawesome-volume-up:before {
+    content: '\e849';
+}
+
+/* 'î¡‰' */
+
+.icon-fontawesome-headphones:before {
+    content: '\e84a';
+}
+
+/* 'î¡Š' */
+
+.icon-fontawesome-clock:before {
+    content: '\e84b';
+}
+
+/* 'î¡‹' */
+
+.icon-fontawesome-block:before {
+    content: '\e84c';
+}
+
+/* 'î¡Œ' */
+
+.icon-fontawesome-resize-full:before {
+    content: '\e84d';
+}
+
+/* 'î¡' */
+
+.icon-fontawesome-resize-small:before {
+    content: '\e84e';
+}
+
+/* 'î¡Ž' */
+
+.icon-fontawesome-resize-vertical:before {
+    content: '\e84f';
+}
+
+/* 'î¡' */
+
+.icon-fontawesome-resize-horizontal:before {
+    content: '\e850';
+}
+
+/* 'î¡' */
+
+.icon-fontawesome-zoom-in:before {
+    content: '\e851';
+}
+
+/* 'î¡‘' */
+
+.icon-fontawesome-zoom-out:before {
+    content: '\e852';
+}
+
+/* 'î¡’' */
+
+.icon-fontawesome-down-circled2:before {
+    content: '\e853';
+}
+
+/* 'î¡“' */
+
+.icon-fontawesome-up-circled2:before {
+    content: '\e854';
+}
+
+/* 'î¡”' */
+
+.icon-fontawesome-down-dir:before {
+    content: '\e855';
+}
+
+/* 'î¡•' */
+
+.icon-fontawesome-up-dir:before {
+    content: '\e856';
+}
+
+/* 'î¡–' */
+
+.icon-fontawesome-left-dir:before {
+    content: '\e857';
+}
+
+/* 'î¡—' */
+
+.icon-fontawesome-right-dir:before {
+    content: '\e858';
+}
+
+/* 'î¡˜' */
+
+.icon-fontawesome-down-open:before {
+    content: '\e859';
+}
+
+/* 'î¡™' */
+
+.icon-fontawesome-left-open:before {
+    content: '\e85a';
+}
+
+/* 'î¡š' */
+
+.icon-fontawesome-right-open:before {
+    content: '\e85b';
+}
+
+/* 'î¡›' */
+
+.icon-fontawesome-up-open:before {
+    content: '\e85c';
+}
+
+/* 'î¡œ' */
+
+.icon-fontawesome-down-big:before {
+    content: '\e85d';
+}
+
+/* 'î¡' */
+
+.icon-fontawesome-left-big:before {
+    content: '\e85e';
+}
+
+/* 'î¡ž' */
+
+.icon-fontawesome-right-big:before {
+    content: '\e85f';
+}
+
+/* 'î¡Ÿ' */
+
+.icon-fontawesome-up-big:before {
+    content: '\e860';
+}
+
+/* 'î¡ ' */
+
+.icon-fontawesome-right-hand:before {
+    content: '\e861';
+}
+
+/* 'î¡¡' */
+
+.icon-fontawesome-left-hand:before {
+    content: '\e862';
+}
+
+/* 'î¡¢' */
+
+.icon-fontawesome-up-hand:before {
+    content: '\e863';
+}
+
+/* 'î¡£' */
+
+.icon-fontawesome-down-hand:before {
+    content: '\e864';
+}
+
+/* 'î¡¤' */
+
+.icon-fontawesome-cw:before {
+    content: '\e865';
+}
+
+/* 'î¡¥' */
+
+.icon-fontawesome-ccw:before {
+    content: '\e866';
+}
+
+/* 'î¡¦' */
+
+.icon-fontawesome-arrows-cw:before {
+    content: '\e867';
+}
+
+/* 'î¡§' */
+
+.icon-fontawesome-shuffle:before {
+    content: '\e868';
+}
+
+/* 'î¡¨' */
+
+.icon-fontawesome-play:before {
+    content: '\e869';
+}
+
+/* 'î¡©' */
+
+.icon-fontawesome-play-circled2:before {
+    content: '\e86a';
+}
+
+/* 'î¡ª' */
+
+.icon-fontawesome-stop:before {
+    content: '\e86b';
+}
+
+/* 'î¡«' */
+
+.icon-fontawesome-pause:before {
+    content: '\e86c';
+}
+
+/* 'î¡¬' */
+
+.icon-fontawesome-to-end:before {
+    content: '\e86d';
+}
+
+/* 'î¡­' */
+
+.icon-fontawesome-to-end-alt:before {
+    content: '\e86e';
+}
+
+/* 'î¡®' */
+
+.icon-fontawesome-to-start:before {
+    content: '\e86f';
+}
+
+/* 'î¡¯' */
+
+.icon-fontawesome-to-start-alt:before {
+    content: '\e870';
+}
+
+/* 'î¡°' */
+
+.icon-fontawesome-fast-fw:before {
+    content: '\e871';
+}
+
+/* 'î¡±' */
+
+.icon-fontawesome-fast-bw:before {
+    content: '\e872';
+}
+
+/* 'î¡²' */
+
+.icon-fontawesome-eject:before {
+    content: '\e873';
+}
+
+/* 'î¡³' */
+
+.icon-fontawesome-target:before {
+    content: '\e874';
+}
+
+/* 'î¡´' */
+
+.icon-fontawesome-signal:before {
+    content: '\e875';
+}
+
+/* 'î¡µ' */
+
+.icon-fontawesome-award:before {
+    content: '\e876';
+}
+
+/* 'î¡¶' */
+
+.icon-fontawesome-inbox:before {
+    content: '\e877';
+}
+
+/* 'î¡·' */
+
+.icon-fontawesome-globe:before {
+    content: '\e878';
+}
+
+/* 'î¡¸' */
+
+.icon-fontawesome-cloud:before {
+    content: '\e879';
+}
+
+/* 'î¡¹' */
+
+.icon-fontawesome-flash:before {
+    content: '\e87a';
+}
+
+/* 'î¡º' */
+
+.icon-fontawesome-umbrella:before {
+    content: '\e87b';
+}
+
+/* 'î¡»' */
+
+.icon-fontawesome-flight:before {
+    content: '\e87c';
+}
+
+/* 'î¡¼' */
+
+.icon-fontawesome-leaf:before {
+    content: '\e87d';
+}
+
+/* 'î¡½' */
+
+.icon-fontawesome-font:before {
+    content: '\e87e';
+}
+
+/* 'î¡¾' */
+
+.icon-fontawesome-bold:before {
+    content: '\e87f';
+}
+
+/* 'î¡¿' */
+
+.icon-fontawesome-italic:before {
+    content: '\e880';
+}
+
+/* 'î¢€' */
+
+.icon-fontawesome-text-height:before {
+    content: '\e881';
+}
+
+/* 'î¢' */
+
+.icon-fontawesome-text-width:before {
+    content: '\e882';
+}
+
+/* 'î¢‚' */
+
+.icon-fontawesome-align-left:before {
+    content: '\e883';
+}
+
+/* 'î¢ƒ' */
+
+.icon-fontawesome-align-center:before {
+    content: '\e884';
+}
+
+/* 'î¢„' */
+
+.icon-fontawesome-align-right:before {
+    content: '\e885';
+}
+
+/* 'î¢…' */
+
+.icon-fontawesome-align-justify:before {
+    content: '\e886';
+}
+
+/* 'î¢†' */
+
+.icon-fontawesome-list:before {
+    content: '\e887';
+}
+
+/* 'î¢‡' */
+
+.icon-fontawesome-indent-left:before {
+    content: '\e888';
+}
+
+/* 'î¢ˆ' */
+
+.icon-fontawesome-indent-right:before {
+    content: '\e889';
+}
+
+/* 'î¢‰' */
+
+.icon-fontawesome-scissors:before {
+    content: '\e88a';
+}
+
+/* 'î¢Š' */
+
+.icon-fontawesome-briefcase:before {
+    content: '\e88b';
+}
+
+/* 'î¢‹' */
+
+.icon-fontawesome-off:before {
+    content: '\e88c';
+}
+
+/* 'î¢Œ' */
+
+.icon-fontawesome-road:before {
+    content: '\e88d';
+}
+
+/* 'î¢' */
+
+.icon-fontawesome-list-alt:before {
+    content: '\e88e';
+}
+
+/* 'î¢Ž' */
+
+.icon-fontawesome-qrcode:before {
+    content: '\e88f';
+}
+
+/* 'î¢' */
+
+.icon-fontawesome-barcode:before {
+    content: '\e890';
+}
+
+/* 'î¢' */
+
+.icon-fontawesome-book:before {
+    content: '\e891';
+}
+
+/* 'î¢‘' */
+
+.icon-fontawesome-adjust:before {
+    content: '\e892';
+}
+
+/* 'î¢’' */
+
+.icon-fontawesome-tint:before {
+    content: '\e893';
+}
+
+/* 'î¢“' */
+
+.icon-fontawesome-check:before {
+    content: '\e894';
+}
+
+/* 'î¢”' */
+
+.icon-fontawesome-asterisk:before {
+    content: '\e895';
+}
+
+/* 'î¢•' */
+
+.icon-fontawesome-gift:before {
+    content: '\e896';
+}
+
+/* 'î¢–' */
+
+.icon-fontawesome-fire:before {
+    content: '\e897';
+}
+
+/* 'î¢—' */
+
+.icon-fontawesome-magnet:before {
+    content: '\e898';
+}
+
+/* 'î¢˜' */
+
+.icon-fontawesome-chart-bar:before {
+    content: '\e899';
+}
+
+/* 'î¢™' */
+
+.icon-fontawesome-credit-card:before {
+    content: '\e89a';
+}
+
+/* 'î¢š' */
+
+.icon-fontawesome-floppy:before {
+    content: '\e89b';
+}
+
+/* 'î¢›' */
+
+.icon-fontawesome-megaphone:before {
+    content: '\e89c';
+}
+
+/* 'î¢œ' */
+
+.icon-fontawesome-key:before {
+    content: '\e89d';
+}
+
+/* 'î¢' */
+
+.icon-fontawesome-truck:before {
+    content: '\e89e';
+}
+
+/* 'î¢ž' */
+
+.icon-fontawesome-hammer:before {
+    content: '\e89f';
+}
+
+/* 'î¢Ÿ' */
+
+.icon-fontawesome-lemon:before {
+    content: '\e8a0';
+}
+
+/* 'î¢ ' */
+
+.icon-fontawesome-move:before {
+    content: '\f047';
+}
+
+/* 'ï‡' */
+
+.icon-fontawesome-link-ext:before {
+    content: '\f08e';
+}
+
+/* 'ï‚Ž' */
+
+.icon-fontawesome-check-empty:before {
+    content: '\f096';
+}
+
+/* 'ï‚–' */
+
+.icon-fontawesome-bookmark-empty:before {
+    content: '\f097';
+}
+
+/* 'ï‚—' */
+
+.icon-fontawesome-phone-squared:before {
+    content: '\f098';
+}
+
+/* 'ï‚˜' */
+
+.icon-fontawesome-twitter:before {
+    content: '\f099';
+}
+
+/* 'ï‚™' */
+
+.icon-fontawesome-facebook:before {
+    content: '\f09a';
+}
+
+/* 'ï‚š' */
+
+.icon-fontawesome-github-circled:before {
+    content: '\f09b';
+}
+
+/* 'ï‚›' */
+
+.icon-fontawesome-rss:before {
+    content: '\f09e';
+}
+
+/* 'ï‚ž' */
+
+.icon-fontawesome-hdd:before {
+    content: '\f0a0';
+}
+
+/* 'ï‚ ' */
+
+.icon-fontawesome-certificate:before {
+    content: '\f0a3';
+}
+
+/* 'ï‚£' */
+
+.icon-fontawesome-left-circled:before {
+    content: '\f0a8';
+}
+
+/* 'ï‚¨' */
+
+.icon-fontawesome-right-circled:before {
+    content: '\f0a9';
+}
+
+/* 'ï‚©' */
+
+.icon-fontawesome-up-circled:before {
+    content: '\f0aa';
+}
+
+/* 'ï‚ª' */
+
+.icon-fontawesome-down-circled:before {
+    content: '\f0ab';
+}
+
+/* 'ï‚«' */
+
+.icon-fontawesome-tasks:before {
+    content: '\f0ae';
+}
+
+/* 'ï‚®' */
+
+.icon-fontawesome-filter:before {
+    content: '\f0b0';
+}
+
+/* 'ï‚°' */
+
+.icon-fontawesome-resize-full-alt:before {
+    content: '\f0b2';
+}
+
+/* 'ï‚²' */
+
+.icon-fontawesome-beaker:before {
+    content: '\f0c3';
+}
+
+/* 'ïƒƒ' */
+
+.icon-fontawesome-docs:before {
+    content: '\f0c5';
+}
+
+/* 'ïƒ…' */
+
+.icon-fontawesome-blank:before {
+    content: '\f0c8';
+}
+
+/* 'ïƒˆ' */
+
+.icon-fontawesome-menu:before {
+    content: '\f0c9';
+}
+
+/* 'ïƒ‰' */
+
+.icon-fontawesome-list-bullet:before {
+    content: '\f0ca';
+}
+
+/* 'ïƒŠ' */
+
+.icon-fontawesome-list-numbered:before {
+    content: '\f0cb';
+}
+
+/* 'ïƒ‹' */
+
+.icon-fontawesome-strike:before {
+    content: '\f0cc';
+}
+
+/* 'ïƒŒ' */
+
+.icon-fontawesome-underline:before {
+    content: '\f0cd';
+}
+
+/* 'ïƒ' */
+
+.icon-fontawesome-table:before {
+    content: '\f0ce';
+}
+
+/* 'ïƒŽ' */
+
+.icon-fontawesome-magic:before {
+    content: '\f0d0';
+}
+
+/* 'ïƒ' */
+
+.icon-fontawesome-pinterest-circled:before {
+    content: '\f0d2';
+}
+
+/* 'ïƒ’' */
+
+.icon-fontawesome-pinterest-squared:before {
+    content: '\f0d3';
+}
+
+/* 'ïƒ“' */
+
+.icon-fontawesome-gplus-squared:before {
+    content: '\f0d4';
+}
+
+/* 'ïƒ”' */
+
+.icon-fontawesome-gplus:before {
+    content: '\f0d5';
+}
+
+/* 'ïƒ•' */
+
+.icon-fontawesome-money:before {
+    content: '\f0d6';
+}
+
+/* 'ïƒ–' */
+
+.icon-fontawesome-columns:before {
+    content: '\f0db';
+}
+
+/* 'ïƒ›' */
+
+.icon-fontawesome-sort:before {
+    content: '\f0dc';
+}
+
+/* 'ïƒœ' */
+
+.icon-fontawesome-sort-down:before {
+    content: '\f0dd';
+}
+
+/* 'ïƒ' */
+
+.icon-fontawesome-sort-up:before {
+    content: '\f0de';
+}
+
+/* 'ïƒž' */
+
+.icon-fontawesome-mail-alt:before {
+    content: '\f0e0';
+}
+
+/* 'ïƒ ' */
+
+.icon-fontawesome-linkedin:before {
+    content: '\f0e1';
+}
+
+/* 'ïƒ¡' */
+
+.icon-fontawesome-gauge:before {
+    content: '\f0e4';
+}
+
+/* 'ïƒ¤' */
+
+.icon-fontawesome-comment-empty:before {
+    content: '\f0e5';
+}
+
+/* 'ïƒ¥' */
+
+.icon-fontawesome-chat-empty:before {
+    content: '\f0e6';
+}
+
+/* 'ïƒ¦' */
+
+.icon-fontawesome-sitemap:before {
+    content: '\f0e8';
+}
+
+/* 'ïƒ¨' */
+
+.icon-fontawesome-paste:before {
+    content: '\f0ea';
+}
+
+/* 'ïƒª' */
+
+.icon-fontawesome-lightbulb:before {
+    content: '\f0eb';
+}
+
+/* 'ïƒ«' */
+
+.icon-fontawesome-exchange:before {
+    content: '\f0ec';
+}
+
+/* 'ïƒ¬' */
+
+.icon-fontawesome-download-cloud:before {
+    content: '\f0ed';
+}
+
+/* 'ïƒ­' */
+
+.icon-fontawesome-upload-cloud:before {
+    content: '\f0ee';
+}
+
+/* 'ïƒ®' */
+
+.icon-fontawesome-user-md:before {
+    content: '\f0f0';
+}
+
+/* 'ïƒ°' */
+
+.icon-fontawesome-stethoscope:before {
+    content: '\f0f1';
+}
+
+/* 'ïƒ±' */
+
+.icon-fontawesome-suitcase:before {
+    content: '\f0f2';
+}
+
+/* 'ïƒ²' */
+
+.icon-fontawesome-bell-alt:before {
+    content: '\f0f3';
+}
+
+/* 'ïƒ³' */
+
+.icon-fontawesome-coffee:before {
+    content: '\f0f4';
+}
+
+/* 'ïƒ´' */
+
+.icon-fontawesome-food:before {
+    content: '\f0f5';
+}
+
+/* 'ïƒµ' */
+
+.icon-fontawesome-doc-text:before {
+    content: '\f0f6';
+}
+
+/* 'ïƒ¶' */
+
+.icon-fontawesome-building:before {
+    content: '\f0f7';
+}
+
+/* 'ïƒ·' */
+
+.icon-fontawesome-hospital:before {
+    content: '\f0f8';
+}
+
+/* 'ïƒ¸' */
+
+.icon-fontawesome-ambulance:before {
+    content: '\f0f9';
+}
+
+/* 'ïƒ¹' */
+
+.icon-fontawesome-medkit:before {
+    content: '\f0fa';
+}
+
+/* 'ïƒº' */
+
+.icon-fontawesome-fighter-jet:before {
+    content: '\f0fb';
+}
+
+/* 'ïƒ»' */
+
+.icon-fontawesome-beer:before {
+    content: '\f0fc';
+}
+
+/* 'ïƒ¼' */
+
+.icon-fontawesome-h-sigh:before {
+    content: '\f0fd';
+}
+
+/* 'ïƒ½' */
+
+.icon-fontawesome-plus-squared:before {
+    content: '\f0fe';
+}
+
+/* 'ïƒ¾' */
+
+.icon-fontawesome-angle-double-left:before {
+    content: '\f100';
+}
+
+/* 'ï„€' */
+
+.icon-fontawesome-angle-double-right:before {
+    content: '\f101';
+}
+
+/* 'ï„' */
+
+.icon-fontawesome-angle-double-up:before {
+    content: '\f102';
+}
+
+/* 'ï„‚' */
+
+.icon-fontawesome-angle-double-down:before {
+    content: '\f103';
+}
+
+/* 'ï„ƒ' */
+
+.icon-fontawesome-angle-left:before {
+    content: '\f104';
+}
+
+/* 'ï„„' */
+
+.icon-fontawesome-angle-right:before {
+    content: '\f105';
+}
+
+/* 'ï„…' */
+
+.icon-fontawesome-angle-up:before {
+    content: '\f106';
+}
+
+/* 'ï„†' */
+
+.icon-fontawesome-angle-down:before {
+    content: '\f107';
+}
+
+/* 'ï„‡' */
+
+.icon-fontawesome-desktop:before {
+    content: '\f108';
+}
+
+/* 'ï„ˆ' */
+
+.icon-fontawesome-laptop:before {
+    content: '\f109';
+}
+
+/* 'ï„‰' */
+
+.icon-fontawesome-tablet:before {
+    content: '\f10a';
+}
+
+/* 'ï„Š' */
+
+.icon-fontawesome-mobile:before {
+    content: '\f10b';
+}
+
+/* 'ï„‹' */
+
+.icon-fontawesome-circle-empty:before {
+    content: '\f10c';
+}
+
+/* 'ï„Œ' */
+
+.icon-fontawesome-quote-left:before {
+    content: '\f10d';
+}
+
+/* 'ï„' */
+
+.icon-fontawesome-quote-right:before {
+    content: '\f10e';
+}
+
+/* 'ï„Ž' */
+
+.icon-fontawesome-spinner:before {
+    content: '\f110';
+}
+
+/* 'ï„' */
+
+.icon-fontawesome-circle:before {
+    content: '\f111';
+}
+
+/* 'ï„‘' */
+
+.icon-fontawesome-reply:before {
+    content: '\f112';
+}
+
+/* 'ï„’' */
+
+.icon-fontawesome-github:before {
+    content: '\f113';
+}
+
+/* 'ï„“' */
+
+.icon-fontawesome-folder-empty:before {
+    content: '\f114';
+}
+
+/* 'ï„”' */
+
+.icon-fontawesome-folder-open-empty:before {
+    content: '\f115';
+}
+
+/* 'ï„•' */
+
+.icon-fontawesome-smile:before {
+    content: '\f118';
+}
+
+/* 'ï„˜' */
+
+.icon-fontawesome-frown:before {
+    content: '\f119';
+}
+
+/* 'ï„™' */
+
+.icon-fontawesome-meh:before {
+    content: '\f11a';
+}
+
+/* 'ï„š' */
+
+.icon-fontawesome-gamepad:before {
+    content: '\f11b';
+}
+
+/* 'ï„›' */
+
+.icon-fontawesome-keyboard:before {
+    content: '\f11c';
+}
+
+/* 'ï„œ' */
+
+.icon-fontawesome-flag-empty:before {
+    content: '\f11d';
+}
+
+/* 'ï„' */
+
+.icon-fontawesome-flag-checkered:before {
+    content: '\f11e';
+}
+
+/* 'ï„ž' */
+
+.icon-fontawesome-terminal:before {
+    content: '\f120';
+}
+
+/* 'ï„ ' */
+
+.icon-fontawesome-code:before {
+    content: '\f121';
+}
+
+/* 'ï„¡' */
+
+.icon-fontawesome-reply-all:before {
+    content: '\f122';
+}
+
+/* 'ï„¢' */
+
+.icon-fontawesome-star-half-alt:before {
+    content: '\f123';
+}
+
+/* 'ï„£' */
+
+.icon-fontawesome-direction:before {
+    content: '\f124';
+}
+
+/* 'ï„¤' */
+
+.icon-fontawesome-crop:before {
+    content: '\f125';
+}
+
+/* 'ï„¥' */
+
+.icon-fontawesome-fork:before {
+    content: '\f126';
+}
+
+/* 'ï„¦' */
+
+.icon-fontawesome-unlink:before {
+    content: '\f127';
+}
+
+/* 'ï„§' */
+
+.icon-fontawesome-help:before {
+    content: '\f128';
+}
+
+/* 'ï„¨' */
+
+.icon-fontawesome-info:before {
+    content: '\f129';
+}
+
+/* 'ï„©' */
+
+.icon-fontawesome-attention-alt:before {
+    content: '\f12a';
+}
+
+/* 'ï„ª' */
+
+.icon-fontawesome-superscript:before {
+    content: '\f12b';
+}
+
+/* 'ï„«' */
+
+.icon-fontawesome-subscript:before {
+    content: '\f12c';
+}
+
+/* 'ï„¬' */
+
+.icon-fontawesome-eraser:before {
+    content: '\f12d';
+}
+
+/* 'ï„­' */
+
+.icon-fontawesome-puzzle:before {
+    content: '\f12e';
+}
+
+/* 'ï„®' */
+
+.icon-fontawesome-mic:before {
+    content: '\f130';
+}
+
+/* 'ï„°' */
+
+.icon-fontawesome-mute:before {
+    content: '\f131';
+}
+
+/* 'ï„±' */
+
+.icon-fontawesome-shield:before {
+    content: '\f132';
+}
+
+/* 'ï„²' */
+
+.icon-fontawesome-calendar-empty:before {
+    content: '\f133';
+}
+
+/* 'ï„³' */
+
+.icon-fontawesome-extinguisher:before {
+    content: '\f134';
+}
+
+/* 'ï„´' */
+
+.icon-fontawesome-rocket:before {
+    content: '\f135';
+}
+
+/* 'ï„µ' */
+
+.icon-fontawesome-maxcdn:before {
+    content: '\f136';
+}
+
+/* 'ï„¶' */
+
+.icon-fontawesome-angle-circled-left:before {
+    content: '\f137';
+}
+
+/* 'ï„·' */
+
+.icon-fontawesome-angle-circled-right:before {
+    content: '\f138';
+}
+
+/* 'ï„¸' */
+
+.icon-fontawesome-angle-circled-up:before {
+    content: '\f139';
+}
+
+/* 'ï„¹' */
+
+.icon-fontawesome-angle-circled-down:before {
+    content: '\f13a';
+}
+
+/* 'ï„º' */
+
+.icon-fontawesome-html5:before {
+    content: '\f13b';
+}
+
+/* 'ï„»' */
+
+.icon-fontawesome-css3:before {
+    content: '\f13c';
+}
+
+/* 'ï„¼' */
+
+.icon-fontawesome-anchor:before {
+    content: '\f13d';
+}
+
+/* 'ï„½' */
+
+.icon-fontawesome-lock-open-alt:before {
+    content: '\f13e';
+}
+
+/* 'ï„¾' */
+
+.icon-fontawesome-bullseye:before {
+    content: '\f140';
+}
+
+/* 'ï…€' */
+
+.icon-fontawesome-ellipsis:before {
+    content: '\f141';
+}
+
+/* 'ï…' */
+
+.icon-fontawesome-ellipsis-vert:before {
+    content: '\f142';
+}
+
+/* 'ï…‚' */
+
+.icon-fontawesome-rss-squared:before {
+    content: '\f143';
+}
+
+/* 'ï…ƒ' */
+
+.icon-fontawesome-play-circled:before {
+    content: '\f144';
+}
+
+/* 'ï…„' */
+
+.icon-fontawesome-ticket:before {
+    content: '\f145';
+}
+
+/* 'ï……' */
+
+.icon-fontawesome-minus-squared:before {
+    content: '\f146';
+}
+
+/* 'ï…†' */
+
+.icon-fontawesome-minus-squared-alt:before {
+    content: '\f147';
+}
+
+/* 'ï…‡' */
+
+.icon-fontawesome-level-up:before {
+    content: '\f148';
+}
+
+/* 'ï…ˆ' */
+
+.icon-fontawesome-level-down:before {
+    content: '\f149';
+}
+
+/* 'ï…‰' */
+
+.icon-fontawesome-ok-squared:before {
+    content: '\f14a';
+}
+
+/* 'ï…Š' */
+
+.icon-fontawesome-pencil-squared:before {
+    content: '\f14b';
+}
+
+/* 'ï…‹' */
+
+.icon-fontawesome-link-ext-alt:before {
+    content: '\f14c';
+}
+
+/* 'ï…Œ' */
+
+.icon-fontawesome-export-alt:before {
+    content: '\f14d';
+}
+
+/* 'ï…' */
+
+.icon-fontawesome-compass:before {
+    content: '\f14e';
+}
+
+/* 'ï…Ž' */
+
+.icon-fontawesome-expand:before {
+    content: '\f150';
+}
+
+/* 'ï…' */
+
+.icon-fontawesome-collapse:before {
+    content: '\f151';
+}
+
+/* 'ï…‘' */
+
+.icon-fontawesome-expand-right:before {
+    content: '\f152';
+}
+
+/* 'ï…’' */
+
+.icon-fontawesome-euro:before {
+    content: '\f153';
+}
+
+/* 'ï…“' */
+
+.icon-fontawesome-pound:before {
+    content: '\f154';
+}
+
+/* 'ï…”' */
+
+.icon-fontawesome-dollar:before {
+    content: '\f155';
+}
+
+/* 'ï…•' */
+
+.icon-fontawesome-rupee:before {
+    content: '\f156';
+}
+
+/* 'ï…–' */
+
+.icon-fontawesome-yen:before {
+    content: '\f157';
+}
+
+/* 'ï…—' */
+
+.icon-fontawesome-rouble:before {
+    content: '\f158';
+}
+
+/* 'ï…˜' */
+
+.icon-fontawesome-won:before {
+    content: '\f159';
+}
+
+/* 'ï…™' */
+
+.icon-fontawesome-bitcoin:before {
+    content: '\f15a';
+}
+
+/* 'ï…š' */
+
+.icon-fontawesome-doc-inv:before {
+    content: '\f15b';
+}
+
+/* 'ï…›' */
+
+.icon-fontawesome-doc-text-inv:before {
+    content: '\f15c';
+}
+
+/* 'ï…œ' */
+
+.icon-fontawesome-sort-name-up:before {
+    content: '\f15d';
+}
+
+/* 'ï…' */
+
+.icon-fontawesome-sort-name-down:before {
+    content: '\f15e';
+}
+
+/* 'ï…ž' */
+
+.icon-fontawesome-sort-alt-up:before {
+    content: '\f160';
+}
+
+/* 'ï… ' */
+
+.icon-fontawesome-sort-alt-down:before {
+    content: '\f161';
+}
+
+/* 'ï…¡' */
+
+.icon-fontawesome-sort-number-up:before {
+    content: '\f162';
+}
+
+/* 'ï…¢' */
+
+.icon-fontawesome-sort-number-down:before {
+    content: '\f163';
+}
+
+/* 'ï…£' */
+
+.icon-fontawesome-thumbs-up-alt:before {
+    content: '\f164';
+}
+
+/* 'ï…¤' */
+
+.icon-fontawesome-thumbs-down-alt:before {
+    content: '\f165';
+}
+
+/* 'ï…¥' */
+
+.icon-fontawesome-youtube-squared:before {
+    content: '\f166';
+}
+
+/* 'ï…¦' */
+
+.icon-fontawesome-youtube:before {
+    content: '\f167';
+}
+
+/* 'ï…§' */
+
+.icon-fontawesome-xing:before {
+    content: '\f168';
+}
+
+/* 'ï…¨' */
+
+.icon-fontawesome-xing-squared:before {
+    content: '\f169';
+}
+
+/* 'ï…©' */
+
+.icon-fontawesome-youtube-play:before {
+    content: '\f16a';
+}
+
+/* 'ï…ª' */
+
+.icon-fontawesome-dropbox:before {
+    content: '\f16b';
+}
+
+/* 'ï…«' */
+
+.icon-fontawesome-stackoverflow:before {
+    content: '\f16c';
+}
+
+/* 'ï…¬' */
+
+.icon-fontawesome-instagram:before {
+    content: '\f16d';
+}
+
+/* 'ï…­' */
+
+.icon-fontawesome-flickr:before {
+    content: '\f16e';
+}
+
+/* 'ï…®' */
+
+.icon-fontawesome-adn:before {
+    content: '\f170';
+}
+
+/* 'ï…°' */
+
+.icon-fontawesome-bitbucket:before {
+    content: '\f171';
+}
+
+/* 'ï…±' */
+
+.icon-fontawesome-bitbucket-squared:before {
+    content: '\f172';
+}
+
+/* 'ï…²' */
+
+.icon-fontawesome-tumblr:before {
+    content: '\f173';
+}
+
+/* 'ï…³' */
+
+.icon-fontawesome-tumblr-squared:before {
+    content: '\f174';
+}
+
+/* 'ï…´' */
+
+.icon-fontawesome-down:before {
+    content: '\f175';
+}
+
+/* 'ï…µ' */
+
+.icon-fontawesome-up:before {
+    content: '\f176';
+}
+
+/* 'ï…¶' */
+
+.icon-fontawesome-left:before {
+    content: '\f177';
+}
+
+/* 'ï…·' */
+
+.icon-fontawesome-right:before {
+    content: '\f178';
+}
+
+/* 'ï…¸' */
+
+.icon-fontawesome-apple:before {
+    content: '\f179';
+}
+
+/* 'ï…¹' */
+
+.icon-fontawesome-windows:before {
+    content: '\f17a';
+}
+
+/* 'ï…º' */
+
+.icon-fontawesome-android:before {
+    content: '\f17b';
+}
+
+/* 'ï…»' */
+
+.icon-fontawesome-linux:before {
+    content: '\f17c';
+}
+
+/* 'ï…¼' */
+
+.icon-fontawesome-dribbble:before {
+    content: '\f17d';
+}
+
+/* 'ï…½' */
+
+.icon-fontawesome-skype:before {
+    content: '\f17e';
+}
+
+/* 'ï…¾' */
+
+.icon-fontawesome-foursquare:before {
+    content: '\f180';
+}
+
+/* 'ï†€' */
+
+.icon-fontawesome-trello:before {
+    content: '\f181';
+}
+
+/* 'ï†' */
+
+.icon-fontawesome-female:before {
+    content: '\f182';
+}
+
+/* 'ï†‚' */
+
+.icon-fontawesome-male:before {
+    content: '\f183';
+}
+
+/* 'ï†ƒ' */
+
+.icon-fontawesome-gittip:before {
+    content: '\f184';
+}
+
+/* 'ï†„' */
+
+.icon-fontawesome-sun:before {
+    content: '\f185';
+}
+
+/* 'ï†…' */
+
+.icon-fontawesome-moon:before {
+    content: '\f186';
+}
+
+/* 'ï††' */
+
+.icon-fontawesome-box:before {
+    content: '\f187';
+}
+
+/* 'ï†‡' */
+
+.icon-fontawesome-bug:before {
+    content: '\f188';
+}
+
+/* 'ï†ˆ' */
+
+.icon-fontawesome-vkontakte:before {
+    content: '\f189';
+}
+
+/* 'ï†‰' */
+
+.icon-fontawesome-weibo:before {
+    content: '\f18a';
+}
+
+/* 'ï†Š' */
+
+.icon-fontawesome-renren:before {
+    content: '\f18b';
+}
+
+/* 'ï†‹' */
+
+.icon-fontawesome-pagelines:before {
+    content: '\f18c';
+}
+
+/* 'ï†Œ' */
+
+.icon-fontawesome-stackexchange:before {
+    content: '\f18d';
+}
+
+/* 'ï†' */
+
+.icon-fontawesome-right-circled2:before {
+    content: '\f18e';
+}
+
+/* 'ï†Ž' */
+
+.icon-fontawesome-left-circled2:before {
+    content: '\f190';
+}
+
+/* 'ï†' */
+
+.icon-fontawesome-collapse-left:before {
+    content: '\f191';
+}
+
+/* 'ï†‘' */
+
+.icon-fontawesome-dot-circled:before {
+    content: '\f192';
+}
+
+/* 'ï†’' */
+
+.icon-fontawesome-wheelchair:before {
+    content: '\f193';
+}
+
+/* 'ï†“' */
+
+.icon-fontawesome-vimeo-squared:before {
+    content: '\f194';
+}
+
+/* 'ï†”' */
+
+.icon-fontawesome-try:before {
+    content: '\f195';
+}
+
+/* 'ï†•' */
+
+.icon-fontawesome-plus-squared-alt:before {
+    content: '\f196';
+}
+
+/* 'ï†–' */
+
+.icon-fontawesome-space-shuttle:before {
+    content: '\f197';
+}
+
+/* 'ï†—' */
+
+.icon-fontawesome-slack:before {
+    content: '\f198';
+}
+
+/* 'ï†˜' */
+
+.icon-fontawesome-mail-squared:before {
+    content: '\f199';
+}
+
+/* 'ï†™' */
+
+.icon-fontawesome-wordpress:before {
+    content: '\f19a';
+}
+
+/* 'ï†š' */
+
+.icon-fontawesome-openid:before {
+    content: '\f19b';
+}
+
+/* 'ï†›' */
+
+.icon-fontawesome-bank:before {
+    content: '\f19c';
+}
+
+/* 'ï†œ' */
+
+.icon-fontawesome-graduation-cap:before {
+    content: '\f19d';
+}
+
+/* 'ï†' */
+
+.icon-fontawesome-yahoo:before {
+    content: '\f19e';
+}
+
+/* 'ï†ž' */
+
+.icon-fontawesome-google:before {
+    content: '\f1a0';
+}
+
+/* 'ï† ' */
+
+.icon-fontawesome-reddit:before {
+    content: '\f1a1';
+}
+
+/* 'ï†¡' */
+
+.icon-fontawesome-reddit-squared:before {
+    content: '\f1a2';
+}
+
+/* 'ï†¢' */
+
+.icon-fontawesome-stumbleupon-circled:before {
+    content: '\f1a3';
+}
+
+/* 'ï†£' */
+
+.icon-fontawesome-stumbleupon:before {
+    content: '\f1a4';
+}
+
+/* 'ï†¤' */
+
+.icon-fontawesome-delicious:before {
+    content: '\f1a5';
+}
+
+/* 'ï†¥' */
+
+.icon-fontawesome-digg:before {
+    content: '\f1a6';
+}
+
+/* 'ï†¦' */
+
+.icon-fontawesome-pied-piper-squared:before {
+    content: '\f1a7';
+}
+
+/* 'ï†§' */
+
+.icon-fontawesome-pied-piper-alt:before {
+    content: '\f1a8';
+}
+
+/* 'ï†¨' */
+
+.icon-fontawesome-drupal:before {
+    content: '\f1a9';
+}
+
+/* 'ï†©' */
+
+.icon-fontawesome-joomla:before {
+    content: '\f1aa';
+}
+
+/* 'ï†ª' */
+
+.icon-fontawesome-language:before {
+    content: '\f1ab';
+}
+
+/* 'ï†«' */
+
+.icon-fontawesome-fax:before {
+    content: '\f1ac';
+}
+
+/* 'ï†¬' */
+
+.icon-fontawesome-building-filled:before {
+    content: '\f1ad';
+}
+
+/* 'ï†­' */
+
+.icon-fontawesome-child:before {
+    content: '\f1ae';
+}
+
+/* 'ï†®' */
+
+.icon-fontawesome-paw:before {
+    content: '\f1b0';
+}
+
+/* 'ï†°' */
+
+.icon-fontawesome-spoon:before {
+    content: '\f1b1';
+}
+
+/* 'ï†±' */
+
+.icon-fontawesome-cube:before {
+    content: '\f1b2';
+}
+
+/* 'ï†²' */
+
+.icon-fontawesome-cubes:before {
+    content: '\f1b3';
+}
+
+/* 'ï†³' */
+
+.icon-fontawesome-behance:before {
+    content: '\f1b4';
+}
+
+/* 'ï†´' */
+
+.icon-fontawesome-behance-squared:before {
+    content: '\f1b5';
+}
+
+/* 'ï†µ' */
+
+.icon-fontawesome-steam:before {
+    content: '\f1b6';
+}
+
+/* 'ï†¶' */
+
+.icon-fontawesome-steam-squared:before {
+    content: '\f1b7';
+}
+
+/* 'ï†·' */
+
+.icon-fontawesome-recycle:before {
+    content: '\f1b8';
+}
+
+/* 'ï†¸' */
+
+.icon-fontawesome-cab:before {
+    content: '\f1b9';
+}
+
+/* 'ï†¹' */
+
+.icon-fontawesome-taxi:before {
+    content: '\f1ba';
+}
+
+/* 'ï†º' */
+
+.icon-fontawesome-tree:before {
+    content: '\f1bb';
+}
+
+/* 'ï†»' */
+
+.icon-fontawesome-spotify:before {
+    content: '\f1bc';
+}
+
+/* 'ï†¼' */
+
+.icon-fontawesome-deviantart:before {
+    content: '\f1bd';
+}
+
+/* 'ï†½' */
+
+.icon-fontawesome-soundcloud:before {
+    content: '\f1be';
+}
+
+/* 'ï†¾' */
+
+.icon-fontawesome-database:before {
+    content: '\f1c0';
+}
+
+/* 'ï‡€' */
+
+.icon-fontawesome-file-pdf:before {
+    content: '\f1c1';
+}
+
+/* 'ï‡' */
+
+.icon-fontawesome-file-word:before {
+    content: '\f1c2';
+}
+
+/* 'ï‡‚' */
+
+.icon-fontawesome-file-excel:before {
+    content: '\f1c3';
+}
+
+/* 'ï‡ƒ' */
+
+.icon-fontawesome-file-powerpoint:before {
+    content: '\f1c4';
+}
+
+/* 'ï‡„' */
+
+.icon-fontawesome-file-image:before {
+    content: '\f1c5';
+}
+
+/* 'ï‡…' */
+
+.icon-fontawesome-file-archive:before {
+    content: '\f1c6';
+}
+
+/* 'ï‡†' */
+
+.icon-fontawesome-file-audio:before {
+    content: '\f1c7';
+}
+
+/* 'ï‡‡' */
+
+.icon-fontawesome-file-video:before {
+    content: '\f1c8';
+}
+
+/* 'ï‡ˆ' */
+
+.icon-fontawesome-file-code:before {
+    content: '\f1c9';
+}
+
+/* 'ï‡‰' */
+
+.icon-fontawesome-vine:before {
+    content: '\f1ca';
+}
+
+/* 'ï‡Š' */
+
+.icon-fontawesome-codeopen:before {
+    content: '\f1cb';
+}
+
+/* 'ï‡‹' */
+
+.icon-fontawesome-jsfiddle:before {
+    content: '\f1cc';
+}
+
+/* 'ï‡Œ' */
+
+.icon-fontawesome-lifebuoy:before {
+    content: '\f1cd';
+}
+
+/* 'ï‡' */
+
+.icon-fontawesome-circle-notch:before {
+    content: '\f1ce';
+}
+
+/* 'ï‡Ž' */
+
+.icon-fontawesome-rebel:before {
+    content: '\f1d0';
+}
+
+/* 'ï‡' */
+
+.icon-fontawesome-empire:before {
+    content: '\f1d1';
+}
+
+/* 'ï‡‘' */
+
+.icon-fontawesome-git-squared:before {
+    content: '\f1d2';
+}
+
+/* 'ï‡’' */
+
+.icon-fontawesome-git:before {
+    content: '\f1d3';
+}
+
+/* 'ï‡“' */
+
+.icon-fontawesome-hacker-news:before {
+    content: '\f1d4';
+}
+
+/* 'ï‡”' */
+
+.icon-fontawesome-tencent-weibo:before {
+    content: '\f1d5';
+}
+
+/* 'ï‡•' */
+
+.icon-fontawesome-qq:before {
+    content: '\f1d6';
+}
+
+/* 'ï‡–' */
+
+.icon-fontawesome-wechat:before {
+    content: '\f1d7';
+}
+
+/* 'ï‡—' */
+
+.icon-fontawesome-paper-plane:before {
+    content: '\f1d8';
+}
+
+/* 'ï‡˜' */
+
+.icon-fontawesome-paper-plane-empty:before {
+    content: '\f1d9';
+}
+
+/* 'ï‡™' */
+
+.icon-fontawesome-history:before {
+    content: '\f1da';
+}
+
+/* 'ï‡š' */
+
+.icon-fontawesome-circle-thin:before {
+    content: '\f1db';
+}
+
+/* 'ï‡›' */
+
+.icon-fontawesome-header:before {
+    content: '\f1dc';
+}
+
+/* 'ï‡œ' */
+
+.icon-fontawesome-paragraph:before {
+    content: '\f1dd';
+}
+
+/* 'ï‡' */
+
+.icon-fontawesome-sliders:before {
+    content: '\f1de';
+}
+
+/* 'ï‡ž' */
+
+.icon-fontawesome-share:before {
+    content: '\f1e0';
+}
+
+/* 'ï‡ ' */
+
+.icon-fontawesome-share-squared:before {
+    content: '\f1e1';
+}
+
+/* 'ï‡¡' */
+
+.icon-fontawesome-bomb:before {
+    content: '\f1e2';
+}
+
+/* 'ï‡¢' */
+
+.icon-fontawesome-soccer-ball:before {
+    content: '\f1e3';
+}
+
+/* 'ï‡£' */
+
+.icon-fontawesome-tty:before {
+    content: '\f1e4';
+}
+
+/* 'ï‡¤' */
+
+.icon-fontawesome-binoculars:before {
+    content: '\f1e5';
+}
+
+/* 'ï‡¥' */
+
+.icon-fontawesome-plug:before {
+    content: '\f1e6';
+}
+
+/* 'ï‡¦' */
+
+.icon-fontawesome-slideshare:before {
+    content: '\f1e7';
+}
+
+/* 'ï‡§' */
+
+.icon-fontawesome-twitch:before {
+    content: '\f1e8';
+}
+
+/* 'ï‡¨' */
+
+.icon-fontawesome-yelp:before {
+    content: '\f1e9';
+}
+
+/* 'ï‡©' */
+
+.icon-fontawesome-newspaper:before {
+    content: '\f1ea';
+}
+
+/* 'ï‡ª' */
+
+.icon-fontawesome-wifi:before {
+    content: '\f1eb';
+}
+
+/* 'ï‡«' */
+
+.icon-fontawesome-calc:before {
+    content: '\f1ec';
+}
+
+/* 'ï‡¬' */
+
+.icon-fontawesome-paypal:before {
+    content: '\f1ed';
+}
+
+/* 'ï‡­' */
+
+.icon-fontawesome-gwallet:before {
+    content: '\f1ee';
+}
+
+/* 'ï‡®' */
+
+.icon-fontawesome-cc-visa:before {
+    content: '\f1f0';
+}
+
+/* 'ï‡°' */
+
+.icon-fontawesome-cc-mastercard:before {
+    content: '\f1f1';
+}
+
+/* 'ï‡±' */
+
+.icon-fontawesome-cc-discover:before {
+    content: '\f1f2';
+}
+
+/* 'ï‡²' */
+
+.icon-fontawesome-cc-amex:before {
+    content: '\f1f3';
+}
+
+/* 'ï‡³' */
+
+.icon-fontawesome-cc-paypal:before {
+    content: '\f1f4';
+}
+
+/* 'ï‡´' */
+
+.icon-fontawesome-cc-stripe:before {
+    content: '\f1f5';
+}
+
+/* 'ï‡µ' */
+
+.icon-fontawesome-bell-off:before {
+    content: '\f1f6';
+}
+
+/* 'ï‡¶' */
+
+.icon-fontawesome-bell-off-empty:before {
+    content: '\f1f7';
+}
+
+/* 'ï‡·' */
+
+.icon-fontawesome-trash:before {
+    content: '\f1f8';
+}
+
+/* 'ï‡¸' */
+
+.icon-fontawesome-copyright:before {
+    content: '\f1f9';
+}
+
+/* 'ï‡¹' */
+
+.icon-fontawesome-at:before {
+    content: '\f1fa';
+}
+
+/* 'ï‡º' */
+
+.icon-fontawesome-eyedropper:before {
+    content: '\f1fb';
+}
+
+/* 'ï‡»' */
+
+.icon-fontawesome-brush:before {
+    content: '\f1fc';
+}
+
+/* 'ï‡¼' */
+
+.icon-fontawesome-birthday:before {
+    content: '\f1fd';
+}
+
+/* 'ï‡½' */
+
+.icon-fontawesome-chart-area:before {
+    content: '\f1fe';
+}
+
+/* 'ï‡¾' */
+
+.icon-fontawesome-chart-pie:before {
+    content: '\f200';
+}
+
+/* 'ïˆ€' */
+
+.icon-fontawesome-chart-line:before {
+    content: '\f201';
+}
+
+/* 'ïˆ' */
+
+.icon-fontawesome-lastfm:before {
+    content: '\f202';
+}
+
+/* 'ïˆ‚' */
+
+.icon-fontawesome-lastfm-squared:before {
+    content: '\f203';
+}
+
+/* 'ïˆƒ' */
+
+.icon-fontawesome-toggle-off:before {
+    content: '\f204';
+}
+
+/* 'ïˆ„' */
+
+.icon-fontawesome-toggle-on:before {
+    content: '\f205';
+}
+
+/* 'ïˆ…' */
+
+.icon-fontawesome-bicycle:before {
+    content: '\f206';
+}
+
+/* 'ïˆ†' */
+
+.icon-fontawesome-bus:before {
+    content: '\f207';
+}
+
+/* 'ïˆ‡' */
+
+.icon-fontawesome-ioxhost:before {
+    content: '\f208';
+}
+
+/* 'ïˆˆ' */
+
+.icon-fontawesome-angellist:before {
+    content: '\f209';
+}
+
+/* 'ïˆ‰' */
+
+.icon-fontawesome-cc:before {
+    content: '\f20a';
+}
+
+/* 'ïˆŠ' */
+
+.icon-fontawesome-shekel:before {
+    content: '\f20b';
+}
+
+/* 'ïˆ‹' */
+
+.icon-fontawesome-meanpath:before {
+    content: '\f20c';
+}
+
+/* 'ïˆŒ' */
+
+.icon-fontawesome-buysellads:before {
+    content: '\f20d';
+}
+
+/* 'ïˆ' */
+
+.icon-fontawesome-connectdevelop:before {
+    content: '\f20e';
+}
+
+/* 'ïˆŽ' */
+
+.icon-fontawesome-dashcube:before {
+    content: '\f210';
+}
+
+/* 'ïˆ' */
+
+.icon-fontawesome-forumbee:before {
+    content: '\f211';
+}
+
+/* 'ïˆ‘' */
+
+.icon-fontawesome-leanpub:before {
+    content: '\f212';
+}
+
+/* 'ïˆ’' */
+
+.icon-fontawesome-sellsy:before {
+    content: '\f213';
+}
+
+/* 'ïˆ“' */
+
+.icon-fontawesome-shirtsinbulk:before {
+    content: '\f214';
+}
+
+/* 'ïˆ”' */
+
+.icon-fontawesome-simplybuilt:before {
+    content: '\f215';
+}
+
+/* 'ïˆ•' */
+
+.icon-fontawesome-skyatlas:before {
+    content: '\f216';
+}
+
+/* 'ïˆ–' */
+
+.icon-fontawesome-cart-plus:before {
+    content: '\f217';
+}
+
+/* 'ïˆ—' */
+
+.icon-fontawesome-cart-arrow-down:before {
+    content: '\f218';
+}
+
+/* 'ïˆ˜' */
+
+.icon-fontawesome-diamond:before {
+    content: '\f219';
+}
+
+/* 'ïˆ™' */
+
+.icon-fontawesome-ship:before {
+    content: '\f21a';
+}
+
+/* 'ïˆš' */
+
+.icon-fontawesome-user-secret:before {
+    content: '\f21b';
+}
+
+/* 'ïˆ›' */
+
+.icon-fontawesome-motorcycle:before {
+    content: '\f21c';
+}
+
+/* 'ïˆœ' */
+
+.icon-fontawesome-street-view:before {
+    content: '\f21d';
+}
+
+/* 'ïˆ' */
+
+.icon-fontawesome-heartbeat:before {
+    content: '\f21e';
+}
+
+/* 'ïˆž' */
+
+.icon-fontawesome-venus:before {
+    content: '\f221';
+}
+
+/* 'ïˆ¡' */
+
+.icon-fontawesome-mars:before {
+    content: '\f222';
+}
+
+/* 'ïˆ¢' */
+
+.icon-fontawesome-mercury:before {
+    content: '\f223';
+}
+
+/* 'ïˆ£' */
+
+.icon-fontawesome-transgender:before {
+    content: '\f224';
+}
+
+/* 'ïˆ¤' */
+
+.icon-fontawesome-transgender-alt:before {
+    content: '\f225';
+}
+
+/* 'ïˆ¥' */
+
+.icon-fontawesome-venus-double:before {
+    content: '\f226';
+}
+
+/* 'ïˆ¦' */
+
+.icon-fontawesome-mars-double:before {
+    content: '\f227';
+}
+
+/* 'ïˆ§' */
+
+.icon-fontawesome-venus-mars:before {
+    content: '\f228';
+}
+
+/* 'ïˆ¨' */
+
+.icon-fontawesome-mars-stroke:before {
+    content: '\f229';
+}
+
+/* 'ïˆ©' */
+
+.icon-fontawesome-mars-stroke-v:before {
+    content: '\f22a';
+}
+
+/* 'ïˆª' */
+
+.icon-fontawesome-mars-stroke-h:before {
+    content: '\f22b';
+}
+
+/* 'ïˆ«' */
+
+.icon-fontawesome-neuter:before {
+    content: '\f22c';
+}
+
+/* 'ïˆ¬' */
+
+.icon-fontawesome-genderless:before {
+    content: '\f22d';
+}
+
+/* 'ïˆ­' */
+
+.icon-fontawesome-facebook-official:before {
+    content: '\f230';
+}
+
+/* 'ïˆ°' */
+
+.icon-fontawesome-pinterest:before {
+    content: '\f231';
+}
+
+/* 'ïˆ±' */
+
+.icon-fontawesome-whatsapp:before {
+    content: '\f232';
+}
+
+/* 'ïˆ²' */
+
+.icon-fontawesome-server:before {
+    content: '\f233';
+}
+
+/* 'ïˆ³' */
+
+.icon-fontawesome-user-plus:before {
+    content: '\f234';
+}
+
+/* 'ïˆ´' */
+
+.icon-fontawesome-user-times:before {
+    content: '\f235';
+}
+
+/* 'ïˆµ' */
+
+.icon-fontawesome-bed:before {
+    content: '\f236';
+}
+
+/* 'ïˆ¶' */
+
+.icon-fontawesome-viacoin:before {
+    content: '\f237';
+}
+
+/* 'ïˆ·' */
+
+.icon-fontawesome-train:before {
+    content: '\f238';
+}
+
+/* 'ïˆ¸' */
+
+.icon-fontawesome-subway:before {
+    content: '\f239';
+}
+
+/* 'ïˆ¹' */
+
+.icon-fontawesome-medium:before {
+    content: '\f23a';
+}
+
+/* 'ïˆº' */
+
+.icon-fontawesome-y-combinator:before {
+    content: '\f23b';
+}
+
+/* 'ïˆ»' */
+
+.icon-fontawesome-optin-monster:before {
+    content: '\f23c';
+}
+
+/* 'ïˆ¼' */
+
+.icon-fontawesome-opencart:before {
+    content: '\f23d';
+}
+
+/* 'ïˆ½' */
+
+.icon-fontawesome-expeditedssl:before {
+    content: '\f23e';
+}
+
+/* 'ïˆ¾' */
+
+.icon-fontawesome-battery-4:before {
+    content: '\f240';
+}
+
+/* 'ï‰€' */
+
+.icon-fontawesome-battery-3:before {
+    content: '\f241';
+}
+
+/* 'ï‰' */
+
+.icon-fontawesome-battery-2:before {
+    content: '\f242';
+}
+
+/* 'ï‰‚' */
+
+.icon-fontawesome-battery-1:before {
+    content: '\f243';
+}
+
+/* 'ï‰ƒ' */
+
+.icon-fontawesome-battery-0:before {
+    content: '\f244';
+}
+
+/* 'ï‰„' */
+
+.icon-fontawesome-mouse-pointer:before {
+    content: '\f245';
+}
+
+/* 'ï‰…' */
+
+.icon-fontawesome-i-cursor:before {
+    content: '\f246';
+}
+
+/* 'ï‰†' */
+
+.icon-fontawesome-object-group:before {
+    content: '\f247';
+}
+
+/* 'ï‰‡' */
+
+.icon-fontawesome-object-ungroup:before {
+    content: '\f248';
+}
+
+/* 'ï‰ˆ' */
+
+.icon-fontawesome-sticky-note:before {
+    content: '\f249';
+}
+
+/* 'ï‰‰' */
+
+.icon-fontawesome-sticky-note-o:before {
+    content: '\f24a';
+}
+
+/* 'ï‰Š' */
+
+.icon-fontawesome-cc-jcb:before {
+    content: '\f24b';
+}
+
+/* 'ï‰‹' */
+
+.icon-fontawesome-cc-diners-club:before {
+    content: '\f24c';
+}
+
+/* 'ï‰Œ' */
+
+.icon-fontawesome-clone:before {
+    content: '\f24d';
+}
+
+/* 'ï‰' */
+
+.icon-fontawesome-balance-scale:before {
+    content: '\f24e';
+}
+
+/* 'ï‰Ž' */
+
+.icon-fontawesome-hourglass-o:before {
+    content: '\f250';
+}
+
+/* 'ï‰' */
+
+.icon-fontawesome-hourglass-1:before {
+    content: '\f251';
+}
+
+/* 'ï‰‘' */
+
+.icon-fontawesome-hourglass-2:before {
+    content: '\f252';
+}
+
+/* 'ï‰’' */
+
+.icon-fontawesome-hourglass-3:before {
+    content: '\f253';
+}
+
+/* 'ï‰“' */
+
+.icon-fontawesome-hourglass:before {
+    content: '\f254';
+}
+
+/* 'ï‰”' */
+
+.icon-fontawesome-hand-grab-o:before {
+    content: '\f255';
+}
+
+/* 'ï‰•' */
+
+.icon-fontawesome-hand-paper-o:before {
+    content: '\f256';
+}
+
+/* 'ï‰–' */
+
+.icon-fontawesome-hand-scissors-o:before {
+    content: '\f257';
+}
+
+/* 'ï‰—' */
+
+.icon-fontawesome-hand-lizard-o:before {
+    content: '\f258';
+}
+
+/* 'ï‰˜' */
+
+.icon-fontawesome-hand-spock-o:before {
+    content: '\f259';
+}
+
+/* 'ï‰™' */
+
+.icon-fontawesome-hand-pointer-o:before {
+    content: '\f25a';
+}
+
+/* 'ï‰š' */
+
+.icon-fontawesome-hand-peace-o:before {
+    content: '\f25b';
+}
+
+/* 'ï‰›' */
+
+.icon-fontawesome-trademark:before {
+    content: '\f25c';
+}
+
+/* 'ï‰œ' */
+
+.icon-fontawesome-registered:before {
+    content: '\f25d';
+}
+
+/* 'ï‰' */
+
+.icon-fontawesome-creative-commons:before {
+    content: '\f25e';
+}
+
+/* 'ï‰ž' */
+
+.icon-fontawesome-gg:before {
+    content: '\f260';
+}
+
+/* 'ï‰ ' */
+
+.icon-fontawesome-gg-circle:before {
+    content: '\f261';
+}
+
+/* 'ï‰¡' */
+
+.icon-fontawesome-tripadvisor:before {
+    content: '\f262';
+}
+
+/* 'ï‰¢' */
+
+.icon-fontawesome-odnoklassniki:before {
+    content: '\f263';
+}
+
+/* 'ï‰£' */
+
+.icon-fontawesome-odnoklassniki-square:before {
+    content: '\f264';
+}
+
+/* 'ï‰¤' */
+
+.icon-fontawesome-get-pocket:before {
+    content: '\f265';
+}
+
+/* 'ï‰¥' */
+
+.icon-fontawesome-wikipedia-w:before {
+    content: '\f266';
+}
+
+/* 'ï‰¦' */
+
+.icon-fontawesome-safari:before {
+    content: '\f267';
+}
+
+/* 'ï‰§' */
+
+.icon-fontawesome-chrome:before {
+    content: '\f268';
+}
+
+/* 'ï‰¨' */
+
+.icon-fontawesome-firefox:before {
+    content: '\f269';
+}
+
+/* 'ï‰©' */
+
+.icon-fontawesome-opera:before {
+    content: '\f26a';
+}
+
+/* 'ï‰ª' */
+
+.icon-fontawesome-internet-explorer:before {
+    content: '\f26b';
+}
+
+/* 'ï‰«' */
+
+.icon-fontawesome-television:before {
+    content: '\f26c';
+}
+
+/* 'ï‰¬' */
+
+.icon-fontawesome-contao:before {
+    content: '\f26d';
+}
+
+/* 'ï‰­' */
+
+.icon-fontawesome-500px:before {
+    content: '\f26e';
+}
+
+/* 'ï‰®' */
+
+.icon-fontawesome-amazon:before {
+    content: '\f270';
+}
+
+/* 'ï‰°' */
+
+.icon-fontawesome-calendar-plus-o:before {
+    content: '\f271';
+}
+
+/* 'ï‰±' */
+
+.icon-fontawesome-calendar-minus-o:before {
+    content: '\f272';
+}
+
+/* 'ï‰²' */
+
+.icon-fontawesome-calendar-times-o:before {
+    content: '\f273';
+}
+
+/* 'ï‰³' */
+
+.icon-fontawesome-calendar-check-o:before {
+    content: '\f274';
+}
+
+/* 'ï‰´' */
+
+.icon-fontawesome-industry:before {
+    content: '\f275';
+}
+
+/* 'ï‰µ' */
+
+.icon-fontawesome-map-pin:before {
+    content: '\f276';
+}
+
+/* 'ï‰¶' */
+
+.icon-fontawesome-map-signs:before {
+    content: '\f277';
+}
+
+/* 'ï‰·' */
+
+.icon-fontawesome-map-o:before {
+    content: '\f278';
+}
+
+/* 'ï‰¸' */
+
+.icon-fontawesome-map:before {
+    content: '\f279';
+}
+
+/* 'ï‰¹' */
+
+.icon-fontawesome-commenting:before {
+    content: '\f27a';
+}
+
+/* 'ï‰º' */
+
+.icon-fontawesome-commenting-o:before {
+    content: '\f27b';
+}
+
+/* 'ï‰»' */
+
+.icon-fontawesome-houzz:before {
+    content: '\f27c';
+}
+
+/* 'ï‰¼' */
+
+.icon-fontawesome-vimeo:before {
+    content: '\f27d';
+}
+
+/* 'ï‰½' */
+
+.icon-fontawesome-black-tie:before {
+    content: '\f27e';
+}
+
+/* 'ï‰¾' */
+
+.icon-fontawesome-fonticons:before {
+    content: '\f280';
+}
+
+/* 'ïŠ€' */
+
+.icon-fontawesome-reddit-alien:before {
+    content: '\f281';
+}
+
+/* 'ïŠ' */
+
+.icon-fontawesome-edge:before {
+    content: '\f282';
+}
+
+/* 'ïŠ‚' */
+
+.icon-fontawesome-credit-card-alt:before {
+    content: '\f283';
+}
+
+/* 'ïŠƒ' */
+
+.icon-fontawesome-codiepie:before {
+    content: '\f284';
+}
+
+/* 'ïŠ„' */
+
+.icon-fontawesome-modx:before {
+    content: '\f285';
+}
+
+/* 'ïŠ…' */
+
+.icon-fontawesome-fort-awesome:before {
+    content: '\f286';
+}
+
+/* 'ïŠ†' */
+
+.icon-fontawesome-usb:before {
+    content: '\f287';
+}
+
+/* 'ïŠ‡' */
+
+.icon-fontawesome-product-hunt:before {
+    content: '\f288';
+}
+
+/* 'ïŠˆ' */
+
+.icon-fontawesome-mixcloud:before {
+    content: '\f289';
+}
+
+/* 'ïŠ‰' */
+
+.icon-fontawesome-scribd:before {
+    content: '\f28a';
+}
+
+/* 'ïŠŠ' */
+
+.icon-fontawesome-pause-circle:before {
+    content: '\f28b';
+}
+
+/* 'ïŠ‹' */
+
+.icon-fontawesome-pause-circle-o:before {
+    content: '\f28c';
+}
+
+/* 'ïŠŒ' */
+
+.icon-fontawesome-stop-circle:before {
+    content: '\f28d';
+}
+
+/* 'ïŠ' */
+
+.icon-fontawesome-stop-circle-o:before {
+    content: '\f28e';
+}
+
+/* 'ïŠŽ' */
+
+.icon-fontawesome-shopping-bag:before {
+    content: '\f290';
+}
+
+/* 'ïŠ' */
+
+.icon-fontawesome-shopping-basket:before {
+    content: '\f291';
+}
+
+/* 'ïŠ‘' */
+
+.icon-fontawesome-hashtag:before {
+    content: '\f292';
+}
+
+/* 'ïŠ’' */
+
+.icon-fontawesome-bluetooth:before {
+    content: '\f293';
+}
+
+/* 'ïŠ“' */
+
+.icon-fontawesome-bluetooth-b:before {
+    content: '\f294';
+}
+
+/* 'ïŠ”' */
+
+.icon-fontawesome-percent:before {
+    content: '\f295';
+}
+
+/* 'ïŠ•' */
+
+.icon-fontawesome-gitlab:before {
+    content: '\f296';
+}
+
+/* 'ïŠ–' */
+
+.icon-fontawesome-wpbeginner:before {
+    content: '\f297';
+}
+
+/* 'ïŠ—' */
+
+.icon-fontawesome-wpforms:before {
+    content: '\f298';
+}
+
+/* 'ïŠ˜' */
+
+.icon-fontawesome-envira:before {
+    content: '\f299';
+}
+
+/* 'ïŠ™' */
+
+.icon-fontawesome-universal-access:before {
+    content: '\f29a';
+}
+
+/* 'ïŠš' */
+
+.icon-fontawesome-wheelchair-alt:before {
+    content: '\f29b';
+}
+
+/* 'ïŠ›' */
+
+.icon-fontawesome-question-circle-o:before {
+    content: '\f29c';
+}
+
+/* 'ïŠœ' */
+
+.icon-fontawesome-blind:before {
+    content: '\f29d';
+}
+
+/* 'ïŠ' */
+
+.icon-fontawesome-audio-description:before {
+    content: '\f29e';
+}
+
+/* 'ïŠž' */
+
+.icon-fontawesome-volume-control-phone:before {
+    content: '\f2a0';
+}
+
+/* 'ïŠ ' */
+
+.icon-fontawesome-braille:before {
+    content: '\f2a1';
+}
+
+/* 'ïŠ¡' */
+
+.icon-fontawesome-assistive-listening-systems:before {
+    content: '\f2a2';
+}
+
+/* 'ïŠ¢' */
+
+.icon-fontawesome-american-sign-language-interpreting:before {
+    content: '\f2a3';
+}
+
+/* 'ïŠ£' */
+
+.icon-fontawesome-asl-interpreting:before {
+    content: '\f2a4';
+}
+
+/* 'ïŠ¤' */
+
+.icon-fontawesome-glide:before {
+    content: '\f2a5';
+}
+
+/* 'ïŠ¥' */
+
+.icon-fontawesome-glide-g:before {
+    content: '\f2a6';
+}
+
+/* 'ïŠ¦' */
+
+.icon-fontawesome-sign-language:before {
+    content: '\f2a7';
+}
+
+/* 'ïŠ§' */
+
+.icon-fontawesome-low-vision:before {
+    content: '\f2a8';
+}
+
+/* 'ïŠ¨' */
+
+.icon-fontawesome-viadeo:before {
+    content: '\f2a9';
+}
+
+/* 'ïŠ©' */
+
+.icon-fontawesome-viadeo-square:before {
+    content: '\f2aa';
+}
+
+/* 'ïŠª' */
+
+.icon-fontawesome-snapchat:before {
+    content: '\f2ab';
+}
+
+/* 'ïŠ«' */
+
+.icon-fontawesome-snapchat-ghost:before {
+    content: '\f2ac';
+}
+
+/* 'ïŠ¬' */
+
+.icon-fontawesome-snapchat-square:before {
+    content: '\f2ad';
+}
+
+/* 'ïŠ­' */
+
+.icon-fontawesome-pied-piper:before {
+    content: '\f2ae';
+}
+
+/* 'ïŠ®' */
+
+.icon-fontawesome-first-order:before {
+    content: '\f2b0';
+}
+
+/* 'ïŠ°' */
+
+.icon-fontawesome-yoast:before {
+    content: '\f2b1';
+}
+
+/* 'ïŠ±' */
+
+.icon-fontawesome-themeisle:before {
+    content: '\f2b2';
+}
+
+/* 'ïŠ²' */
+
+.icon-fontawesome-google-plus-circle:before {
+    content: '\f2b3';
+}
+
+/* 'ïŠ³' */
+
+.icon-fontawesome-font-awesome:before {
+    content: '\f2b4';
+}
+
+/* 'ïŠ´' */
+
+.icon-fontawesome-handshake-o:before {
+    content: '\f2b5';
+}
+
+/* 'ïŠµ' */
+
+.icon-fontawesome-envelope-open:before {
+    content: '\f2b6';
+}
+
+/* 'ïŠ¶' */
+
+.icon-fontawesome-envelope-open-o:before {
+    content: '\f2b7';
+}
+
+/* 'ïŠ·' */
+
+.icon-fontawesome-linode:before {
+    content: '\f2b8';
+}
+
+/* 'ïŠ¸' */
+
+.icon-fontawesome-address-book:before {
+    content: '\f2b9';
+}
+
+/* 'ïŠ¹' */
+
+.icon-fontawesome-address-book-o:before {
+    content: '\f2ba';
+}
+
+/* 'ïŠº' */
+
+.icon-fontawesome-address-card:before {
+    content: '\f2bb';
+}
+
+/* 'ïŠ»' */
+
+.icon-fontawesome-address-card-o:before {
+    content: '\f2bc';
+}
+
+/* 'ïŠ¼' */
+
+.icon-fontawesome-user-circle:before {
+    content: '\f2bd';
+}
+
+/* 'ïŠ½' */
+
+.icon-fontawesome-user-circle-o:before {
+    content: '\f2be';
+}
+
+/* 'ïŠ¾' */
+
+.icon-fontawesome-user-o:before {
+    content: '\f2c0';
+}
+
+/* 'ï‹€' */
+
+.icon-fontawesome-id-badge:before {
+    content: '\f2c1';
+}
+
+/* 'ï‹' */
+
+.icon-fontawesome-id-card:before {
+    content: '\f2c2';
+}
+
+/* 'ï‹‚' */
+
+.icon-fontawesome-id-card-o:before {
+    content: '\f2c3';
+}
+
+/* 'ï‹ƒ' */
+
+.icon-fontawesome-quora:before {
+    content: '\f2c4';
+}
+
+/* 'ï‹„' */
+
+.icon-fontawesome-free-code-camp:before {
+    content: '\f2c5';
+}
+
+/* 'ï‹…' */
+
+.icon-fontawesome-telegram:before {
+    content: '\f2c6';
+}
+
+/* 'ï‹†' */
+
+.icon-fontawesome-thermometer:before {
+    content: '\f2c7';
+}
+
+/* 'ï‹‡' */
+
+.icon-fontawesome-thermometer-3:before {
+    content: '\f2c8';
+}
+
+/* 'ï‹ˆ' */
+
+.icon-fontawesome-thermometer-2:before {
+    content: '\f2c9';
+}
+
+/* 'ï‹‰' */
+
+.icon-fontawesome-thermometer-quarter:before {
+    content: '\f2ca';
+}
+
+/* 'ï‹Š' */
+
+.icon-fontawesome-thermometer-0:before {
+    content: '\f2cb';
+}
+
+/* 'ï‹‹' */
+
+.icon-fontawesome-shower:before {
+    content: '\f2cc';
+}
+
+/* 'ï‹Œ' */
+
+.icon-fontawesome-bath:before {
+    content: '\f2cd';
+}
+
+/* 'ï‹' */
+
+.icon-fontawesome-podcast:before {
+    content: '\f2ce';
+}
+
+/* 'ï‹Ž' */
+
+.icon-fontawesome-window-maximize:before {
+    content: '\f2d0';
+}
+
+/* 'ï‹' */
+
+.icon-fontawesome-window-minimize:before {
+    content: '\f2d1';
+}
+
+/* 'ï‹‘' */
+
+.icon-fontawesome-window-restore:before {
+    content: '\f2d2';
+}
+
+/* 'ï‹’' */
+
+.icon-fontawesome-window-close:before {
+    content: '\f2d3';
+}
+
+/* 'ï‹“' */
+
+.icon-fontawesome-window-close-o:before {
+    content: '\f2d4';
+}
+
+/* 'ï‹”' */
+
+.icon-fontawesome-bandcamp:before {
+    content: '\f2d5';
+}
+
+/* 'ï‹•' */
+
+.icon-fontawesome-grav:before {
+    content: '\f2d6';
+}
+
+/* 'ï‹–' */
+
+.icon-fontawesome-etsy:before {
+    content: '\f2d7';
+}
+
+/* 'ï‹—' */
+
+.icon-fontawesome-imdb:before {
+    content: '\f2d8';
+}
+
+/* 'ï‹˜' */
+
+.icon-fontawesome-ravelry:before {
+    content: '\f2d9';
+}
+
+/* 'ï‹™' */
+
+.icon-fontawesome-eercast:before {
+    content: '\f2da';
+}
+
+/* 'ï‹š' */
+
+.icon-fontawesome-microchip:before {
+    content: '\f2db';
+}
+
+/* 'ï‹›' */
+
+.icon-fontawesome-snowflake-o:before {
+    content: '\f2dc';
+}
+
+/* 'ï‹œ' */
+
+.icon-fontawesome-superpowers:before {
+    content: '\f2dd';
+}
+
+/* 'ï‹' */
+
+.icon-fontawesome-wpexplorer:before {
+    content: '\f2de';
+}
+
+/* 'ï‹ž' */
+
+.icon-fontawesome-meetup:before {
+    content: '\f2e0';
+}
+
+/* 'ï‹ ' */
+
+.icon-fontawesome-github-squared:before {
+    content: '\f300';
+}
+
+/* 'ïŒ€' */
+
+.icon-fontawesome-twitter-squared:before {
+    content: '\f304';
+}
+
+/* 'ïŒ„' */
+
+.icon-fontawesome-facebook-squared:before {
+    content: '\f308';
+}
+
+/* 'ïŒˆ' */
+
+.icon-fontawesome-linkedin-squared:before {
+    content: '\f30c';
+}
+
+/* 'ïŒŒ' */
